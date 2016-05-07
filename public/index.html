@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+          <h1>ENTHRALLER</h1>
+          <h3>sous vide</h4>
+
+          <hr>
+
+          <div class="row">
+            <div class="one-half column">
+              <h4>Temperature</h4>
+              <h1><span id="t">--</span>℉</h1>
+            </div>
+            <div class="one-half column">
+              <h4>Settings</h4>
+              <label for="temp">
+                Temperature
+                <input type="number" id="temp" name="temp"/>
+                <button id="update">Update</button>
+              </label>
+            </div>
+        </div>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

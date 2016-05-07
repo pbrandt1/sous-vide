@@ -1,0 +1,15 @@
+{
+  "name": "sous-vide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "koa-socket": "^4.3.0",
+    "koat": "^1.0.1"
+  }
+}
